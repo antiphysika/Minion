@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.minion.util;
+package antiphysika.minion.util.server;
 
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;

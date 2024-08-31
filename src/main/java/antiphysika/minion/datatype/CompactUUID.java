@@ -2,21 +2,21 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.minion.data;
+package antiphysika.minion.datatype;
 
 import java.util.UUID;
 
-public class CompactUuid
+public class CompactUUID
 {
   private long lowBits;
   private long highBits;
 
-  public CompactUuid (UUID uuid)
+  public CompactUUID (UUID uuid)
   {
     set(uuid.getMostSignificantBits(), uuid.getLeastSignificantBits());
   }
 
-  public CompactUuid (long lowBits, long highBits)
+  public CompactUUID (long lowBits, long highBits)
   {
     this.set(lowBits, highBits);
   }
@@ -42,9 +42,9 @@ public class CompactUuid
     return new UUID(lowBits, highBits);
   }
 
-  public static CompactUuid fromUUID (UUID uuid)
+  public static CompactUUID fromUUID (UUID uuid)
   {
-    return new CompactUuid(uuid.getMostSignificantBits(), uuid.getLeastSignificantBits());
+    return new CompactUUID(uuid.getMostSignificantBits(), uuid.getLeastSignificantBits());
   }
 }
 

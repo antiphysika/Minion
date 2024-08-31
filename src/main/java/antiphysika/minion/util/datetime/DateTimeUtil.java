@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.minion.util;
+package antiphysika.minion.util.datetime;
 
 import java.time.Instant;
 

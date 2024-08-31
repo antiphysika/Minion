@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.minion.util;
+package antiphysika.minion.util.random;
 
 import java.util.Random;
 

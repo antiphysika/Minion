@@ -1,17 +1,11 @@
-/*
- * SPDX-License-Identifier: LGPL-2.1
- */
+package antiphysika.minion.util.datetime;
 
-package antiphysika.minion.testsuite;
-
-import antiphysika.minion.util.DateTimeUtil;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.Instant;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-public class TestDateUtil
+public class TestDateTimeUtil
 {
   private static final long TEST_UNIX_TIME = 1723695025L;
   private static final String TEST_INSTANT = "2024-08-15T04:10:25Z";
