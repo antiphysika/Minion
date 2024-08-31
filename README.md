@@ -6,7 +6,7 @@ modding endeavours.
 
 So, I'm sharing it here on CurseForgein just in case it scratches anyone else's itch.
 
-## Current Features
+## Upcoming Features
 
 *Dynamic Texture Generation*
 
